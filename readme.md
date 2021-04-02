@@ -1,4 +1,4 @@
-# ft_containers tester
+# ft_containers tester 🏴‍☠️ 
 
 ## Installation
 
@@ -7,10 +7,16 @@ Go into your project folder and type:
 git clone https://github.com/lsarrazi/ft_containers_tester.git tester && cd tester
 ```
 
-### Base Test + Installation
+### Installation + Base Test 🍮
 
 ```bash
 git clone https://github.com/lsarrazi/ft_containers_tester.git tester && cd tester && ./test.sh base/*/*
+```
+
+### Set your project path in test.sh
+
+```bash
+ftcontainers_path=".." # Path to your project headers
 ```
 
 ## Usage
@@ -53,3 +59,10 @@ You will find the following files:
 - valgrind.txt: The output of valgrind
 
 ![alt text](./res/tester.png "./test.sh base/list/*")
+
+
+## Author / Contributor
+
+Everyone can contribute by enhancing a test or adding a new one. Just make a pull request
+
+- lsarrazi 👑
