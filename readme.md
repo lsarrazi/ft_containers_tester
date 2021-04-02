@@ -13,7 +13,7 @@ git clone https://github.com/lsarrazi/ft_containers_tester.git tester && cd test
 git clone https://github.com/lsarrazi/ft_containers_tester.git tester && cd tester && ./test.sh base/*/*
 ```
 
-### Set your project path in test.sh
+Set your project path in **test.sh**
 
 ```bash
 ftcontainers_path=".." # Path to your project headers
@@ -63,6 +63,6 @@ You will find the following files:
 
 ## Author / Contributor
 
-Everyone can contribute by enhancing a test or adding a new one. Just make a pull request
+**Everyone can contribute by enhancing a test or adding a new one. Just make a pull request**
 
 - lsarrazi 👑
