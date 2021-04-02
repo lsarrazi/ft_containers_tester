@@ -1,0 +1,1 @@
+mylist contains: 2.72 12.15 72.25

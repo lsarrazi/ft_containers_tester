@@ -1,0 +1,7 @@
+foo contains:
+a => 11
+a => 55
+b => 22
+bar contains:
+x => 100
+y => 200

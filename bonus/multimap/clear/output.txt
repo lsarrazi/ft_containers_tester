@@ -1,0 +1,7 @@
+mymultimap contains:
+b => 80
+b => 120
+q => 360
+mymultimap contains:
+a => 11
+x => 22

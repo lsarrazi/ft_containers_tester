@@ -1,0 +1,4 @@
+fifth: d -> 70
+fifth: c -> 50
+fifth: b -> 30
+fifth: a -> 10

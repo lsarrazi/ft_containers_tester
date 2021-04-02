@@ -1,0 +1,13 @@
+./base/queue/constructor/patched.cpp: In function ‘int main()’:
+./base/queue/constructor/patched.cpp:13:31: error: no matching function for call to ‘ft::queue<int>::queue(std::deque<int>&)’
+  ft::queue<int> second (mydeck); // queue initialized to copy of deque
+                               ^
+In file included from ./base/queue/constructor/patched.cpp:5:0:
+../queue.hpp:21:12: note: candidate: ft::queue<T, Container>::queue(const container_type&) [with T = int; Container = ft::list<int, std::allocator<int> >; ft::queue<T, Container>::container_type = ft::list<int, std::allocator<int> >]
+   explicit queue(const container_type& r = container_type()) : container(r) { };
+            ^~~~~
+../queue.hpp:21:12: note:   no known conversion for argument 1 from ‘std::deque<int>’ to ‘const container_type& {aka const ft::list<int, std::allocator<int> >&}’
+../queue.hpp:11:8: note: candidate: ft::queue<int>::queue(const ft::queue<int>&)
+  class queue
+        ^~~~~
+../queue.hpp:11:8: note:   no known conversion for argument 1 from ‘std::deque<int>’ to ‘const ft::queue<int>&’

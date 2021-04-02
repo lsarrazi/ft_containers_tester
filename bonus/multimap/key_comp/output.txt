@@ -1,0 +1,6 @@
+mymultimap contains:
+a => 100
+b => 200
+b => 211
+c => 300
+

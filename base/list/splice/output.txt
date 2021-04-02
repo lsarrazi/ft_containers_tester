@@ -1,0 +1,2 @@
+mylist1 contains: 30 3 4 1 10 20
+mylist2 contains: 2
