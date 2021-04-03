@@ -114,7 +114,7 @@ function run_test()
 			local end=" \e[91m⛔ abort\e[0m"
 			crash=1
 		elif [ $vgout = 21 ]; then
-			local end=" \e[91m⚠ leak\e[0m"
+			local end=" \e[91m⚠ valgrind not happy\e[0m"
 			mkdir tmp/leak/$testDir__
 		elif [ $vgout -ne 6677 -a $vgout -ne 0 ]; then
 			local end=" \e[91m💥 exit code $vgout\e[0m"
