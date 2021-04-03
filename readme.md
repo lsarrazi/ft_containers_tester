@@ -64,9 +64,7 @@ sudo apt-get install valgrind lldb-10 && ln -s /usr/bin/lldb-10 /usr/local/bin/l
 
 ## Informations
 
-Each test is executed independently of the others in its own executable.
-
-Tests are compiled and run in parallel to maximize performance.
+Each test attempts to debug a particular function. The tests may depend on different functions.
 
 You will be able to find these files in each test directory:
 
@@ -75,13 +73,14 @@ You will be able to find these files in each test directory:
 - **out.txt**: The actual output that your library produce
 - **diff.txt**: The difference between expected.txt and output.txt
 - **valgrind.txt**: The output of valgrind
+- 
+Each test is executed independently of the others in its own executable.
 
-Each test attempts to debug a particular function. The tests may depend on different functions.
+Tests are compiled and run in parallel to maximize performance.
 
 Here is what it looks like:
 
 ![alt text](./res/tester.png "./test.sh base/list/*")
-
 
 ## Author / Contributor
 
