@@ -6,7 +6,7 @@ function clean()
 	for testDir in $@; do
 		cd $testDir
 		rm -rf bin
-		rm -f log.txt valgrind.txt output.txt diff.txt
+		rm -f log.txt valgrind.txt output.txt diff.txt patched.cpp
 		echo \'$testDir\' cleaned.
 		cd $f
 	done
