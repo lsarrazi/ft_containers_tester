@@ -73,7 +73,7 @@ You will be able to find these files in each test directory:
 - **out.txt**: The actual output that your library produce
 - **diff.txt**: The difference between expected.txt and output.txt
 - **valgrind.txt**: The output of valgrind
-- 
+
 Each test is executed independently of the others in its own executable.
 
 Tests are compiled and run in parallel to maximize performance.
