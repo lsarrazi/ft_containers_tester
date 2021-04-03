@@ -48,15 +48,25 @@ Run debug mode (specific test only)
 
 Debug mode displays compilation errors and runs lldb in case of crash.
 
-## Informations
+## Dependencies
 
-This script depends on the following programs: (* = optional)
+This script depends on the following programs: **optional*
 - **Compiler**: clang++, g++ *(Could be set in test.sh)*
 - **Debugger**: lldb, gdb *(Could be set in test.sh)*
 - **Debugging tool:** valgrind*
 - **Shell**: bash
 
+### Install LLDB and valgrind 👍
+
+```bash
+sudo apt-get install valgrind lldb-10 && ln -s /usr/bin/lldb-10 /usr/local/bin/lldb
+```
+
+## Informations
+
 Each test is executed independently of the others in its own executable.
+
+Tests are compiled and run in parallel to maximize performance.
 
 You will be able to find these files in each test directory:
 
