@@ -78,6 +78,8 @@ Each test is executed independently of the others in its own executable.
 
 Tests are compiled and run in parallel to maximize performance.
 
+The majority of the original tests are copies from https://www.cplusplus.com/reference/stl/
+
 Here is what it looks like:
 
 ![alt text](./res/tester.png "./test.sh base/list/*")
