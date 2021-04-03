@@ -1,2 +1,0 @@
-myset contains: 100 200 300
-myset contains: 1101 2202

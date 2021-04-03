@@ -1,1 +1,0 @@
-mylist contains: 17 7 14

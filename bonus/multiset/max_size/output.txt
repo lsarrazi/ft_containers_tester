@@ -1,1 +1,0 @@
-The multiset contains 1000 elements.

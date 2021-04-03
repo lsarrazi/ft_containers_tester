@@ -1,2 +1,0 @@
-size: 100
-capacity: 128

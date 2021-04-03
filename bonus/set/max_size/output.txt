@@ -1,1 +1,0 @@
-The set contains 1000 elements.

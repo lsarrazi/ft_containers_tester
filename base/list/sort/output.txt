@@ -1,2 +1,0 @@
-mylist contains: Three one two
-mylist contains: one Three two

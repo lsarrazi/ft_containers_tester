@@ -1,1 +1,0 @@
-mymultiset contains: 10 20 50 60 70

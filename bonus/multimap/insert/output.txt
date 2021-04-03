@@ -1,9 +1,0 @@
-mymultimap contains:
-a => 100
-b => 75
-c => 300
-z => 400
-z => 150
-anothermultimap contains:
-a => 100
-b => 75

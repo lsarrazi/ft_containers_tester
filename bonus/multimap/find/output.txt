@@ -1,3 +1,0 @@
-elements in mymm:
-y => 20
-z => 40

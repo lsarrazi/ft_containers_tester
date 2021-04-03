@@ -1,2 +1,0 @@
-Please enter some integers (enter 0 to end):
-myqueue contains:  10 15 20 88 42 4757 785 277 2782 8728 45 245 245 0

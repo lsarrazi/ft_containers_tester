@@ -1,1 +1,0 @@
-mymultimap.size() is 4

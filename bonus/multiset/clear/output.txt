@@ -1,2 +1,0 @@
-mymultiset contains: 11 11 42
-mymultiset contains: 100 200

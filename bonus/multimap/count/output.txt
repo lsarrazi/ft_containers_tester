@@ -1,3 +1,0 @@
-There are 1 elements with key x: 50
-There are 3 elements with key y: 100 150 200
-There are 2 elements with key z: 250 300

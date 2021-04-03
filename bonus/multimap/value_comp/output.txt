@@ -1,5 +1,0 @@
-mymultimap contains:
-x => 101
-y => 202
-y => 252
-z => 303

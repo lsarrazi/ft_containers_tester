@@ -1,2 +1,0 @@
-Please enter some integers (enter 0 to end):
-mylist stores 14 numbers.

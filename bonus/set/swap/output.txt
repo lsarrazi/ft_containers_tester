@@ -1,2 +1,0 @@
-first contains: 20 25 32
-second contains: 10 12 75

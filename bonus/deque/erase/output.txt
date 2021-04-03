@@ -1,1 +1,0 @@
-mydeque contains: 4 5 7 8 9 10
