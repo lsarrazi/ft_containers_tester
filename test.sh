@@ -54,6 +54,7 @@ fi
 
 trap "echo -e \"\n\e[1mUser aborted test with signal\e[0m\"; exit" 2 3 9
 
+
 function run_test()
 {
 	trap "tput cup 0 0; echo -e \"\nSEG FAULT FROM TRAP !\"; exit" 11
