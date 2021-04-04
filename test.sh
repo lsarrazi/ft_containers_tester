@@ -2,8 +2,11 @@
 
 cc="clang++" # Tested with both g++ and clang++
 flags="-Wall -Wextra -Werror -std=c++98"
-ftcontainers_path=".." # Path to your project headers
+ftcontainers_path="../../ft_containers_official" # Path to your project headers
 test_std_library=0 # Set to 1 to test C++ STL, will not test your project anymore
+
+
+
 
 echo -e "\e[1mWelcome to lsarrazi's tester for ft_containers\e[0m"
 echo "See readme.md for more informations"
@@ -17,13 +20,21 @@ fi
 echo ""
 use_valgrind=1
 use_lldb=1
+base_headers="vector.hpp list.hpp map.hpp queue.hpp stack.hpp"
+
+for header in $base_headers; do
+	if ! [ -f "./$ftcontainers_path/$header" ]; then
+		echo -e "\e[33m⚠ could not detect header '$header' (set path in test.sh)\e[0m"
+	fi
+done
+
 if ! [ -x "$(command -v valgrind)" ]; then
 	echo -e "\e[33m⚠ 'valgrind' command not detected, the test will not perform leak tests\e[0m"
 	use_valgrind=0
 fi
 
 if [ $# = 0 ]; then
-	target=base/*
+	target=$ftcontainers_path/*/*
 else
 	target=$@
 fi
