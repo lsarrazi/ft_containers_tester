@@ -19,6 +19,8 @@ Set your project path in **test.sh**
 ftcontainers_path=".." # Path to your project headers
 ```
 
+Your headers should be named in lowercase, like "vector.hpp".
+
 ## Usage
 
 Run all base tests
