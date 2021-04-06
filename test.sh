@@ -2,7 +2,7 @@
 
 cc="clang++" # Tested with both g++ and clang++
 flags="-Wall -Wextra -Werror -std=c++98"
-ftcontainers_path="../../ft_containers_official" # Path to your project headers
+ftcontainers_path=".." # Path to your project headers
 test_std_library=0 # Set to 1 to test C++ STL, will not test your project anymore
 
 
