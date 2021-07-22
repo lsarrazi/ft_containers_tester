@@ -86,6 +86,10 @@ Here is what it looks like:
 
 ![alt text](./res/tester.png "./test.sh base/list/*")
 
+## Author comment
+
+The tests provided are insufficient for a complete debugging of a standard library, as well as a correct and conscientious correction to the ft_containers project. Please consider this when using the tester.
+
 ## Author / Contributor
 
 **Everyone can contribute by enhancing a test or adding a new one. Just make a pull request**
